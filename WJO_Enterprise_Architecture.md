@@ -467,8 +467,6 @@ END
 
 ## 7. Key Process Flows
 
-## 7. Key Process Flows
-
 ### User Creation Flow (Standardized)
 1. User/HR submits registration through standard interface
 2. Identity Management Service validates against business rules
