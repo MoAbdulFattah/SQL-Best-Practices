@@ -103,7 +103,7 @@ FROM Users;
 ## Before/After Example  
 **Before:**  
 ```sql
-SELECT FirstName, LastName, CivilIDExpiryDate, PassPortExpiryDate FROM WJOUsers WHERE Active = 1;
+SELECT FirstName, LastName, CivilIDExpiryDate, PassportExpiryDate FROM WJOUsers WHERE Active = 1;
 ```
 
 **After:**  
@@ -113,7 +113,7 @@ SELECT
     FirstName AS UserFirstName,  
     LastName AS UserLastName,  
     CivilIDExpiryDate,  
-    PassPortExpiryDate  
+    PassportExpiryDate  
 FROM WJOUsers  
 WHERE Active = 1;
 ```
